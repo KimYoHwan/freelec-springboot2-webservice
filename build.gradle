@@ -17,12 +17,12 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 
-group 'com.jojoldu.book'
+group 'com.jojoidu.book'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 bootJar {
-    mainClassName = 'com.jojoldu.book.springboot.Application'
+    mainClassName = 'com.jojoidu.book.springboot.Application'
 }
 
 repositories {
